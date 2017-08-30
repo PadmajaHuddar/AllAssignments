@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<form #productForm="ngForm" class="w3-container w3-card-4 w3-light-grey w3-vivid-purplish-red w3-margin">
+<h2 class="w3-center w3-vivid-purplish-red">Register</h2>
+ 
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="first" type="text" placeholder="First Name"  required minlength="3" maxlength="20" #firstnameRef #firstnameModelRef="ngModel" ngModel>
+            <div *ngIf="firstnameModelRef.errors && firstnameModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!firstnameModelRef.errors.required" >Please enter your first name </div>
+                <div [hidden]="!firstnameModelRef.errors.minlength"> Name length should be minimum 3 characters </div>
+            </div>
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name" required minlength="3" maxlength="20" #lastnameRef #lastnameModelRef="ngModel" ngModel>
+            <div *ngIf="lastnameModelRef.errors && lastnameModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!lastnameModelRef.errors.required" >Please enter your last name </div>
+                <div [hidden]="!lastnameModelRef.errors.minlength"> Name length should be minimum 3 characters </div>
+            </div>
+    </div>
+</div>
+
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="username" type="text" placeholder="User Name"  required minlength="2" maxlength="15" #usernmRef #usernmModelRef="ngModel" ngModel>
+            <div *ngIf="usernmModelRef.errors && usernmModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!usernmModelRef.errors.required" >Please enter username </div>
+                <div [hidden]="!usernmModelRef.errors.minlength"> User name should be minimum 3 character long </div>
+            </div>
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-lock"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="pwd" type="password" placeholder="Password"  required minlength="8" maxlength="15" #passwdRef #passwdModelRef="ngModel" ngModel>
+            <div *ngIf="passwdModelRef.errors && passwdModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!passwdModelRef.errors.required" >Please enter password </div>
+                <div [hidden]="!passwdModelRef.errors.minlength"> Password should be minimum 8 characters </div>
+            </div>
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="email" type="email" placeholder="Email" required #emailRef >
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="phone" type="number" placeholder="Phone" required minlength="10" #phoneNoRef #phoneNoRef="ngModel" ngModel>
+            <div *ngIf="phoneNoRef.errors && phoneNoRef.touched" class="alert alert-danger">
+                <div [hidden]="!phoneNoRef.errors.required" >Please enter your name </div>
+                <div [hidden]="!phoneNoRef.errors.minlength"> Invalid number </div>
+            </div>
+    </div>
+</div>
+<p class="w3-center">
+    <button [disabled]="!productForm.form.valid" type="submit" (click)="insertRegistrationInfo(firstnameRef.value,lastnameRef.value,usernmRef.value,passwdRef.value,emailRef.value,phoneNoRef.value)" >Register</button>
+</p>
+</form>

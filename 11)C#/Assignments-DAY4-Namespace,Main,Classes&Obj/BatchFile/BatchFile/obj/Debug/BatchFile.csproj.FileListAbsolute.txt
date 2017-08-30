@@ -1,0 +1,6 @@
+c:\users\huddar_p\documents\visual studio 2015\Projects\BatchFile\BatchFile\bin\Debug\BatchFile.exe.config
+c:\users\huddar_p\documents\visual studio 2015\Projects\BatchFile\BatchFile\bin\Debug\BatchFile.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\BatchFile\BatchFile\bin\Debug\BatchFile.pdb
+c:\users\huddar_p\documents\visual studio 2015\Projects\BatchFile\BatchFile\obj\Debug\BatchFile.csprojResolveAssemblyReference.cache
+c:\users\huddar_p\documents\visual studio 2015\Projects\BatchFile\BatchFile\obj\Debug\BatchFile.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\BatchFile\BatchFile\obj\Debug\BatchFile.pdb

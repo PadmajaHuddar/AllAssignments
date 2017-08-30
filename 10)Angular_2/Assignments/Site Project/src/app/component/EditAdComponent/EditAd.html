@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<form class="w3-container w3-card-4 w3-light-grey w3-vivid-purplish-red w3-margin">
+	<h2 class="w3-center w3-vivid-purplish-red">Post Ad</h2>	
+	<div class="col-md-12 col-sm-12">
+	<h3>Post an Ad!!</h3>
+	
+	
+	<!--li style="list-style-type:none" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><b style="color:black;">Categories</b><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li *ngFor="let category of categories;"><a>{{category}}</a></li>
+        </ul>
+      </li-->
+
+
+
+	<div class="form-group col-md-6 col-sm-6">
+            <label for="title">Title:*	</label>
+            <input type="text" class="form-control input-sm" [ngModel]="title" placeholder="" #titleRef>
+    </div>
+	
+	<div class="form-group col-md-6 col-sm-6">
+            <label for="name">Name:	</label>
+            <input type="text" class="form-control input-sm" [ngModel]="name" placeholder="" #nameRef>
+    </div>
+
+	<div class="form-group col-md-6 col-sm-6">
+         <label for="description">Description:</label>
+         <input type="text" class="form-control input-sm" placeholder="" [ngModel]="description" #description>
+    </div>
+          
+    <div class="input-group">
+        <select class="form-control" id="cat" style="width:170px;" #categoryRef>
+        <option>-Select Category-</option>
+        <option *ngFor="let category of categories" >{{category.name}}</option>
+        </select>
+    </div>
+
+    <button type="button" (click)="PostAd(titleRef.value,nameRef.value,categoryRef.value,description.value)" class="btn btn-default" style="margin-left:100px;background-color:#212121;color:white;" >Post Ad</button>
+	<!--p class="w3-center">
+		<a class="button" id="button1" role="button" (click)="postAd(titleRef.value,nameRef.value,cate.value,description.value)">Post</a>
+	</p-->	
+	</div>
+</form>

@@ -1,0 +1,77 @@
+body {
+      font: 20px "Sofia", sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+	background: linear-gradient(#3C1628, #7B3D5B, #3C1628);
+      #background-color: #281137;
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #AACDCF ; 
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; 
+  }
+  .container-fluid {
+      padding-top: 30px;
+      padding-bottom: 10px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 16px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c;
+  }
+  
+.fa{
+    
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+    background: #3B5998;
+    color: white;
+}
+.fa-snapchat{
+	padding:3px;
+    background: #E3E847;
+    color: white;
+}
+.fa-twitter {
+	padding:3px;
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+	padding:3px;
+    background: #E22418;
+    color: white;
+}
+.fa-linkedin {
+	padding:3px;
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+	padding:3px;
+    background: #900C3F;
+    color: white;
+}

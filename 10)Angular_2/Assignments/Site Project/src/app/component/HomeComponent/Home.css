@@ -1,0 +1,153 @@
+.fa{
+    
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+}
+ * {
+      font-family: "MedievalSharp", sans-serif;
+    }
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+    background: #3B5998;
+    color: white;
+}
+.fa-snapchat{
+	padding:3px;
+    background: #E3E847;
+    color: white;
+}
+.fa-twitter {
+	padding:3px;
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+	padding:3px;
+    background: #E22418;
+    color: white;
+}
+.fa-linkedin {
+	padding:3px;
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+	padding:3px;
+    background: #900C3F;
+    color: white;
+}
+ .bg-4 { 
+ text-align:center;
+      background-color: #ff8080; 
+  }
+  
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.align-left{
+	float:left;
+}
+ 
+li:last-child {
+  border: none;
+}
+
+.a1:link {
+	color: #333333;
+}
+ a:link{
+	 color: white;
+ }
+
+
+
+
+
+
+
+
+
+
+ .left img {
+	width: 200px;
+	height: 200px;
+    float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  margin-left:50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: arial;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+#button1{
+
+	margin-top: 15px;
+    width: 100px;
+    height: 40px;
+}
+#button2{
+		margin-top: 10px;
+    width: 100px;
+    height: 40px;
+	margin-bottom: 50px;
+}
+#container{
+    text-align: center;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  font-size: 18px;
+  background-color: #ff8080;
+}
+
+.a2 {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.a1{
+	font-size: 14px;
+	color: #333333;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,12 @@
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\bin\Debug\NewConsole.exe.config
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\bin\Debug\NewConsole.exe
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\bin\Debug\NewConsole.pdb
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\bin\Debug\ClassLibrary1.dll
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\bin\Debug\EntityFramework.dll
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\bin\Debug\ClassLibrary1.pdb
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\bin\Debug\EntityFramework.xml
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\obj\Debug\NewConsole.csprojResolveAssemblyReference.cache
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\obj\Debug\NewConsole.exe
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\NewConsole\obj\Debug\NewConsole.pdb

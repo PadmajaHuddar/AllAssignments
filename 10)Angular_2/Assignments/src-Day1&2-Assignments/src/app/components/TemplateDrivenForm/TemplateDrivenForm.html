@@ -1,0 +1,43 @@
+<div class="container">
+<h3>{{title}}</h3>
+<form #productForm="ngForm" (ngSubmit)="onSubmit(productForm.value)" novalidate>
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Title</label>
+            <input type="text" name="title" required minlength="3" class="form-control" #titleRef #titleModelRef="ngModel" ngModel>
+            <div *ngIf="titleModelRef.errors && titleModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!titleModelRef.errors.required" >Please enter your name </div>
+                <div [hidden]="!titleModelRef.errors.minlength"> Name length should be minimum 3 characters </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Name</label>
+            <input type="text" name="name" required minlength="3" class="form-control" #nameRef #nameModelRef="ngModel" ngModel>
+            <div *ngIf="nameModelRef.errors && nameModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!nameModelRef.errors.required" >Please enter your name </div>
+                <div [hidden]="!nameModelRef.errors.minlength"> Name length should be minimum 3 characters </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Quantity</label>
+            <input type="number" required name="qty" class="form-control" #quantityRef #qtyModelRef="ngModel" ngModel>
+            <div *ngIf="qtyModelRef.errors && qtyModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!qtyModelRef.errors.required" >Please enter the quantity </div>
+                <div [hidden]="!qtyModelRef.errors.number"> Quantity cannot be greater than 20 units </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Description</label>
+            <input type="text" name="description" class="form-control"npm  #descripRef ngModel>
+        </div>
+    </div>
+    <button [disabled]="!productForm.form.valid"  type="submit" class="btn btn-primary">ADD PRODUCT</button>
+</form>
+</div>

@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<form #productForm="ngForm" class="w3-container w3-card-4 w3-light-grey w3-vivid-purplish-red w3-margin">
+	<h2 class="w3-center w3-vivid-purplish-red">Post Ad</h2>	
+	<div class="col-md-12 col-sm-12">
+	<h3>Post an Ad!!</h3>
+	<div class="form-group col-md-6 col-sm-6">
+            <label for="title">Title:*	</label>
+            <input type="text" class="form-control input-sm" name="title" placeholder="" required minlength="3" #titleRef #titleModelRef="ngModel" ngModel>
+            <div *ngIf="titleModelRef.errors && titleModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!titleModelRef.errors.required" >Please enter title </div>
+                <div [hidden]="!titleModelRef.errors.minlength"> Title length should be minimum 3 characters </div>
+            </div>
+    </div>
+	
+	<div class="form-group col-md-6 col-sm-6">
+            <label for="name">Name:	</label>
+            <input type="text" class="form-control input-sm" name="name" placeholder="" required minlength="3" #nameRef #nameModelRef="ngModel" ngModel>
+            <div *ngIf="nameModelRef.errors && nameModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!nameModelRef.errors.required" >Please enter name </div>
+                <div [hidden]="!nameModelRef.errors.minlength"> Name length should be minimum 3 characters </div>
+            </div>
+    </div>
+
+	<!--div class="form-group">
+        <label for="sell">Select list (select one):</label>
+        <select class="form-control" id="sell" name="category" >
+                 <option *ngFor="let category of categories" #cate> {{category.name}} </option>
+        </select>
+    </div-->
+	<div class="form-group col-md-6 col-sm-6">
+         <label for="description">Description:</label>
+         <input type="text" class="form-control input-sm" name="description" placeholder="" #description #descriptionModelRef="ngModel" ngModel>
+            <div *ngIf="descriptionModelRef.errors && descriptionModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!descriptionModelRef.errors.required" >Please enter description </div>
+            </div>
+         
+    </div>
+          
+    <div class="input-group">
+        <select class="form-control" id="cat" style="width:170px;" #categoryRef>
+        <option>-Select Category-</option>
+        <option *ngFor="let category of categories" >{{category.name}}</option>
+        </select>
+    </div>
+
+    <button type="button" [disabled]="!productForm.form.valid" (click)="postAd(titleRef.value,nameRef.value,categoryRef.value,description.value)" class="btn btn-default" style="margin-left:100px;background-color:#212121;color:white;" >Post Ad</button>
+	<!--p class="w3-center">
+		<a class="button" id="button1" role="button" (click)="postAd(titleRef.value,nameRef.value,cate.value,description.value)">Post</a>
+	</p-->	
+	</div>
+</form>

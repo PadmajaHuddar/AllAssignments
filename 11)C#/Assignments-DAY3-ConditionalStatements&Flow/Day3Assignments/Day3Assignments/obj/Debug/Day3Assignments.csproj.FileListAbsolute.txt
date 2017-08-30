@@ -1,0 +1,9 @@
+c:\users\huddar_p\documents\visual studio 2015\Projects\Day3Assignments\Day3Assignments\bin\Debug\Day3Assignments.exe.config
+c:\users\huddar_p\documents\visual studio 2015\Projects\Day3Assignments\Day3Assignments\bin\Debug\Day3Assignments.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\Day3Assignments\Day3Assignments\bin\Debug\Day3Assignments.pdb
+c:\users\huddar_p\documents\visual studio 2015\Projects\Day3Assignments\Day3Assignments\obj\Debug\Day3Assignments.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\Day3Assignments\Day3Assignments\obj\Debug\Day3Assignments.pdb
+c:\users\huddar_p\documents\visual studio 2015\Projects\Day3Assignments\Day3Assignments\obj\Debug\Day3Assignments.csprojResolveAssemblyReference.cache
+D:\Assigments\C#\Assignments-DAY3\Day3Assignments\Day3Assignments\bin\Debug\Day3Assignments.exe.config
+D:\Assigments\C#\Assignments-DAY3\Day3Assignments\Day3Assignments\obj\Debug\Day3Assignments.exe
+D:\Assigments\C#\Assignments-DAY3\Day3Assignments\Day3Assignments\obj\Debug\Day3Assignments.pdb

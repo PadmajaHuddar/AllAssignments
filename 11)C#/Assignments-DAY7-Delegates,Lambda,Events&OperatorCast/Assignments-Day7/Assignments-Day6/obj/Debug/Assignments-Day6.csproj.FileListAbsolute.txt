@@ -1,0 +1,12 @@
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignments-Day6\Assignments-Day6\bin\Debug\Assignments-Day6.exe.config
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignments-Day6\Assignments-Day6\bin\Debug\Assignments-Day6.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignments-Day6\Assignments-Day6\bin\Debug\Assignments-Day6.pdb
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignments-Day6\Assignments-Day6\obj\Debug\Assignments-Day6.csprojResolveAssemblyReference.cache
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignments-Day6\Assignments-Day6\obj\Debug\Assignments-Day6.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignments-Day6\Assignments-Day6\obj\Debug\Assignments-Day6.pdb
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\Assignments-Day7\Assignments-Day6\bin\Debug\Assignments-Day6.exe.config
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\Assignments-Day7\Assignments-Day6\obj\Debug\Assignments-Day6.exe
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\Assignments-Day7\Assignments-Day6\obj\Debug\Assignments-Day6.pdb
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\Assignments-Day7\Assignments-Day6\obj\Debug\Assignments-Day6.csprojResolveAssemblyReference.cache
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\Assignments-Day7\Assignments-Day6\bin\Debug\Assignments-Day6.exe
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\Assignments-Day7\Assignments-Day6\bin\Debug\Assignments-Day6.pdb

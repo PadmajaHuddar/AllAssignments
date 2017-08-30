@@ -1,0 +1,189 @@
+﻿Installing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Installing service ServiceAssignment...
+Service ServiceAssignment has been successfully installed.
+Creating EventLog source ServiceAssignment in log Application...
+Committing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Uninstalling assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Removing EventLog source ServiceAssignment.
+Service ServiceAssignment is being removed from the system...
+Service ServiceAssignment was successfully removed from the system.
+Installing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Installing service ServiceAssignment...
+Service ServiceAssignment has been successfully installed.
+Creating EventLog source ServiceAssignment in log Application...
+Committing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Uninstalling assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Removing EventLog source ServiceAssignment.
+Service ServiceAssignment is being removed from the system...
+Service ServiceAssignment was successfully removed from the system.
+Installing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Installing service ServiceAssignment...
+Service ServiceAssignment has been successfully installed.
+Creating EventLog source ServiceAssignment in log Application...
+Committing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Uninstalling assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Removing EventLog source ServiceAssignment.
+Service ServiceAssignment is being removed from the system...
+Service ServiceAssignment was successfully removed from the system.
+Installing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Installing service ServiceAssignment...
+Service ServiceAssignment has been successfully installed.
+Creating EventLog source ServiceAssignment in log Application...
+Committing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Uninstalling assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Removing EventLog source ServiceAssignment.
+Service ServiceAssignment is being removed from the system...
+Service ServiceAssignment was successfully removed from the system.
+Installing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Installing service ServiceAssignment...
+Service ServiceAssignment has been successfully installed.
+Creating EventLog source ServiceAssignment in log Application...
+Committing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Uninstalling assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Removing EventLog source ServiceAssignment.
+Service ServiceAssignment is being removed from the system...
+Service ServiceAssignment was successfully removed from the system.
+Installing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Installing service ServiceAssignment...
+Service ServiceAssignment has been successfully installed.
+Creating EventLog source ServiceAssignment in log Application...
+Committing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Uninstalling assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Removing EventLog source ServiceAssignment.
+Service ServiceAssignment is being removed from the system...
+Service ServiceAssignment was successfully removed from the system.
+Installing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Installing service ServiceAssignment...
+Service ServiceAssignment has been successfully installed.
+Creating EventLog source ServiceAssignment in log Application...
+Committing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Uninstalling assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Removing EventLog source ServiceAssignment.
+Service ServiceAssignment is being removed from the system...
+Service ServiceAssignment was successfully removed from the system.
+Installing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Installing service ServiceAssignment...
+Service ServiceAssignment has been successfully installed.
+Creating EventLog source ServiceAssignment in log Application...
+Committing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Uninstalling assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Removing EventLog source ServiceAssignment.
+Service ServiceAssignment is being removed from the system...
+Service ServiceAssignment was successfully removed from the system.
+Installing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Installing service ServiceAssignment...
+Service ServiceAssignment has been successfully installed.
+Creating EventLog source ServiceAssignment in log Application...
+Committing assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Uninstalling assembly 'C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.InstallLog
+   assemblypath = C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+Removing EventLog source ServiceAssignment.
+Service ServiceAssignment is being removed from the system...
+Service ServiceAssignment was successfully removed from the system.

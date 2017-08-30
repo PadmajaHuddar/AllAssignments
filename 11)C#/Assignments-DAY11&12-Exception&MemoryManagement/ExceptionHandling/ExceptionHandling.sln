@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{7946C654-7CE1-4C0D-928C-A26DACDFB468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib", "..\MathLib\MathLib\MathLib.csproj", "{E8836AE3-A4CD-404B-8587-F05D26F64E2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7946C654-7CE1-4C0D-928C-A26DACDFB468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7946C654-7CE1-4C0D-928C-A26DACDFB468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7946C654-7CE1-4C0D-928C-A26DACDFB468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7946C654-7CE1-4C0D-928C-A26DACDFB468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8836AE3-A4CD-404B-8587-F05D26F64E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8836AE3-A4CD-404B-8587-F05D26F64E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8836AE3-A4CD-404B-8587-F05D26F64E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8836AE3-A4CD-404B-8587-F05D26F64E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

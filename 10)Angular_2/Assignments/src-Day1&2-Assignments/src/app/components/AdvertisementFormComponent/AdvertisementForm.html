@@ -1,0 +1,46 @@
+<div class="container">
+<h3>{{title}}</h3>
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Title</label>
+            <input type="text" name="title" class="form-control" #titleRef>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Name</label>
+            <input type="text" name="name" [value]='defaultName' class="form-control" #nameRef>
+        </div>
+    </div>
+    
+   
+    <select #categoryRef>
+      <option *ngFor="let category of categories;">
+           {{category}}
+    </select>
+   
+    <div class="form-group row">
+        <div class="col-md-3">
+            <label>Description</label>
+            <input type="text" name="description" class="form-control"npm  #descripRef>
+        </div>
+    </div>
+    <button (click)="submitAdvertisement(titleRef.value, nameRef.value, categoryRef.value, descripRef.value)" type="button" class="btn btn-primary">ADD PRODUCT</button>
+
+</div>
+<!--div>
+<table border="1">
+  <tr>
+    <th>Title</th>
+    <th>Name</th>
+    <th>Category</th>
+    <th>Description</th>
+  </tr>
+  <tr *ngFor="let advertisement of advertisements;">
+    <td>{{advertisement.title}}</td>
+    <td>{{advertisement.name}}</td>
+    <td>{{advertisement.category}}</td>
+    <td>{{advertisement.description}}</td>
+  </tr>
+</table>
+</div-->

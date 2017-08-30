@@ -1,0 +1,6 @@
+c:\users\huddar_p\documents\visual studio 2015\Projects\TryCatchDemo\TryCatchDemo\bin\Debug\TryCatchDemo.exe.config
+c:\users\huddar_p\documents\visual studio 2015\Projects\TryCatchDemo\TryCatchDemo\bin\Debug\TryCatchDemo.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\TryCatchDemo\TryCatchDemo\bin\Debug\TryCatchDemo.pdb
+c:\users\huddar_p\documents\visual studio 2015\Projects\TryCatchDemo\TryCatchDemo\obj\Debug\TryCatchDemo.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\TryCatchDemo\TryCatchDemo\obj\Debug\TryCatchDemo.pdb
+c:\users\huddar_p\documents\visual studio 2015\Projects\TryCatchDemo\TryCatchDemo\obj\Debug\TryCatchDemo.csprojResolveAssemblyReference.cache

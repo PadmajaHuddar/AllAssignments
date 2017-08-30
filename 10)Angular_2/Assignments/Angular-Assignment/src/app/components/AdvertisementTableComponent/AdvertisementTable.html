@@ -1,0 +1,22 @@
+<h2>Advertisement Table</h2>
+<div class="input-group">
+  <input type="textbox" placeholder='search' #key (keyup)="0">
+</div>
+<div>
+<table border="1" >
+  <tr>
+    <th>Title</th>
+    <th>Name</th>
+    <th>Category</th>
+    <th>Description</th>
+    <th>Actions</th>
+  </tr>
+  <tr *ngFor="let val of values | Search: key.value;">
+    <td>{{val.title}}</td>
+    <td>{{val.name}}</td>
+    <td>{{val.category}}</td>
+    <td>{{val.description}}</td>
+    <td><button (click)="edit(val.id,val.title, val.name, val.category, val.description)" type="button" class="btn btn-primary">Edit</button>/<button (click)="delete(val.id)" type="button" class="btn btn-primary">Delete</button></td>
+  </tr>
+</table>
+</div>

@@ -1,0 +1,14 @@
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\obj\Debug\ClassLibrary1.Migrations.InitialCreate.resources
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.GenerateResource.Cache
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\obj\Debug\ClassLibrary1.Migrations.AddURL.resources
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\EntityFrameDemo\ClassLibrary1\obj\Debug\ClassLibrary1.Migrations.AddDepartmentLib.resources

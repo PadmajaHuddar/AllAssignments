@@ -1,0 +1,8 @@
+c:\users\huddar_p\documents\visual studio 2015\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.csprojResolveAssemblyReference.cache
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\MathLib.dll
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\MathLib.pdb
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.pdb

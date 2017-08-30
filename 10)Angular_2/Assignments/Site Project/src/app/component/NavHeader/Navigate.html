@@ -1,0 +1,89 @@
+	<div class="w3-bar w3-vivid-purplish-red w3-border w3-padding">
+		<a (click)="this.router.navigate(['']);" class="w3-bar-item w3-button w3-mobile"><i class="fa fa-home"></i></a>
+	
+		<div class="w3-dropdown-hover">
+			<button (click)="this.router.navigate(['']);" class="w3-button">Buy</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="#" class="w3-bar-item w3-button">1BHK</a>
+					<a href="#" class="w3-bar-item w3-button">2BHK</a>
+				</div>
+		</div>
+	
+		<div class="w3-dropdown-hover">
+			<button (click)="this.router.navigate(['']);" class="w3-button">Rent</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="#" class="w3-bar-item w3-button">1BHK</a>
+					<a href="#" class="w3-bar-item w3-button">2BHK</a>
+				</div>
+		</div>
+		
+    
+		<a *ngIf="token!=null" class="w3-bar-item w3-button w3-mobile" (click)="this.router.navigate(['/postAd']); ">Sell</a>
+
+ 
+	 	<!--a href="#" class="w3-bar-item w3-button w3-mobile">Shortlisted</a-->
+		
+    <button *ngIf="token==null" type="button" class="w3-bar-item w3-button w3-mobile" data-toggle="modal" data-target="#myModal">Login\Register</button>
+
+   <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Login\Register</h4>
+          </div>
+          <div class="modal-body">
+             <p style="color: black;">Already a user??<a (click)="this.router.navigate(['/login']); " data-dismiss="modal" > Login</a> ...Else <a (click)="this.router.navigate(['/register']);" data-dismiss="modal"> Register </a></p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+	  </div>
+	 </div>
+    
+  <button *ngIf="token!=null" type="button" class="w3-bar-item w3-button w3-mobile" (click)="logout()">Logout</button>
+  <button *ngIf="token!=null" type="button" class="w3-bar-item w3-button w3-mobile" (click)="this.router.navigate(['/UserIdComponent']);">User Details</button>
+
+  <!--div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left align-left" style="display:none;left:0;color:white;background-color:#ff8080" id="leftMenu">
+    <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large" style="background-color:#8c8c8c;">Filter &times;</button>
+  <div id="menu">
+  <div class="panel list-group">
+    <a href="#" class="list-group-item" data-toggle="collapse" data-target="#sm" data-parent="#menu">Number of Rooms<span class="glyphicon glyphicon-home pull-right"></span></a>
+    <div id="sm" class="sublinks collapse">
+       <form action="/action_page.php" style="color:#ff8080">
+         <input type="checkbox" name="flat" value="1BHK">1BHK<br>
+  <input type="checkbox" name="flat" value="2BHK" checked>2BHK<br>
+  <input type="checkbox" name="flat" value="3BHK">3BHK<br>
+  <input type="submit" value="Submit">
+</form> </div>
+ <a href="#" class="list-group-item" data-toggle="collapse" data-target="#sl" data-parent="#menu">Location      <span class="glyphicon glyphicon-map-marker"></span></a>
+ <div id="sl" class="sublinks collapse">
+  <form action="/action_page.php" style="color:#ff8080">
+  <input type="checkbox" name="flat" value="Baner">Baner Road<br>
+  <input type="checkbox" name="flat" value="Balewadi">Balewadi<br>
+  <input type="checkbox" name="flat" value="Wakad">Wakad<br>
+    <input type="checkbox" name="flat" value="Hinjewadi">Hinjewadi<br>
+  <input type="submit" value="Submit">
+</form>  </div>
+ <a href="#" class="list-group-item" data-toggle="collapse" data-target="#st" data-parent="#menu">Posted by      <span class="glyphicon glyphicon-user"></span></a>
+ <div id="st" class="sublinks collapse">
+  <form action="/action_page.php" style="color:#ff8080">
+  <input type="checkbox" name="flat" value="Owner">Owner<br>
+  <input type="checkbox" name="flat" value="Broker">Broker<br>
+  <input type="checkbox" name="flat" value="Builder">Builder<br>
+  <input type="submit" value="Submit">
+</form>  </div>
+</div>
+</div>
+</div-->
+
+<div class="w3-vivid-purplish-red">
+  <button class="w3-button w3-vivid-purplish-red w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+  <!--button class="w3-button w3-vivid-purplish-red w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button-->
+</div>
+
+<button type="button" class="w3-bar-item w3-button w3-mobile" *ngIf="token!=null">Welcome {{userName}}!! Enjoy shopping</button>
+	 

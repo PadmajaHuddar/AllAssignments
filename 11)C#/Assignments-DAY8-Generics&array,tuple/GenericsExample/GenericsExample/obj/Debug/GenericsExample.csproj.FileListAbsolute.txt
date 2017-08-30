@@ -1,0 +1,9 @@
+c:\users\huddar_p\documents\visual studio 2015\Projects\GenericsExample\GenericsExample\bin\Debug\GenericsExample.exe.config
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\GenericsExample\GenericsExample\bin\Debug\GenericsExample.exe
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\GenericsExample\GenericsExample\bin\Debug\GenericsExample.pdb
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\GenericsExample\GenericsExample\obj\Debug\GenericsExample.csprojResolveAssemblyReference.cache
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\GenericsExample\GenericsExample\obj\Debug\GenericsExample.exe
+C:\Users\huddar_p\Documents\Visual Studio 2015\Projects\GenericsExample\GenericsExample\obj\Debug\GenericsExample.pdb
+D:\Assigments\C#\Assignments-DAY8\GenericsExample\GenericsExample\bin\Debug\GenericsExample.exe.config
+D:\Assigments\C#\Assignments-DAY8\GenericsExample\GenericsExample\obj\Debug\GenericsExample.exe
+D:\Assigments\C#\Assignments-DAY8\GenericsExample\GenericsExample\obj\Debug\GenericsExample.pdb

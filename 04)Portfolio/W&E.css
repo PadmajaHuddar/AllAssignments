@@ -1,0 +1,26 @@
+.post-container{
+    margin: 20px 20px 0 0;  
+    border:5px solid #333;
+}
+
+.post-thumb img {
+    float: left;
+    clear:left;
+	width: 300px;
+	height: 400px;
+}
+
+.post-content {
+    float:left;
+	width: 600px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+	font: 16px;
+	color: black;
+}
+body {
+      font: 18px "Sofia", sans-serif;
+}
+.box { height: 50px; background: #0F0; width: 100%; margin-top: 10px; }
+#first { margin-top: 20px; }

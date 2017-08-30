@@ -1,0 +1,11 @@
+.post-thumb img {
+    float: left;
+    clear:left;
+	width: 300px;
+	height: 400px;
+	padding-bottom: 50px;
+}
+body
+{
+	color: black;
+}

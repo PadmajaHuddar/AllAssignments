@@ -1,0 +1,6 @@
+c:\users\huddar_p\documents\visual studio 2015\Projects\InterfaceExample\InterfaceExample\bin\Debug\InterfaceExample.exe.config
+c:\users\huddar_p\documents\visual studio 2015\Projects\InterfaceExample\InterfaceExample\bin\Debug\InterfaceExample.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\InterfaceExample\InterfaceExample\bin\Debug\InterfaceExample.pdb
+c:\users\huddar_p\documents\visual studio 2015\Projects\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.csprojResolveAssemblyReference.cache
+c:\users\huddar_p\documents\visual studio 2015\Projects\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\InterfaceExample\InterfaceExample\obj\Debug\InterfaceExample.pdb

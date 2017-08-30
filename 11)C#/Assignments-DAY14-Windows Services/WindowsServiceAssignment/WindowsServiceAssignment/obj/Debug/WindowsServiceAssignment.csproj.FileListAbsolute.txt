@@ -1,0 +1,8 @@
+c:\users\huddar_p\documents\visual studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe.config
+c:\users\huddar_p\documents\visual studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\bin\Debug\WindowsServiceAssignment.pdb
+c:\users\huddar_p\documents\visual studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\obj\Debug\WindowsServiceAssignment.ProjectInstaller.resources
+c:\users\huddar_p\documents\visual studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\obj\Debug\WindowsServiceAssignment.ServiceAssignment.resources
+c:\users\huddar_p\documents\visual studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\obj\Debug\WindowsServiceAssignment.csproj.GenerateResource.Cache
+c:\users\huddar_p\documents\visual studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\obj\Debug\WindowsServiceAssignment.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\WindowsServiceAssignment\WindowsServiceAssignment\obj\Debug\WindowsServiceAssignment.pdb

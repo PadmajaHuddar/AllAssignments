@@ -1,0 +1,159 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body>
+
+<div class="input-group" style="margin-top: 50px;">
+        <select class="form-control" id="category" #categoryRef>
+        <option>-Serch by Category-</option>
+        <option *ngFor="let category of categories" >{{category.name}}</option>
+        </select>
+        <div class="input-group-btn">
+            <button (click)="productsbycategory(categoryRef.value)" class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+</div>
+
+
+<div *ngFor="let arr of array">
+	 <div class="card" >
+    <!--div class="left"><img src="images/1.jpg" ></div-->
+    <div class="container" >
+    <p class="title w3-light-grey">{{arr.title}}</p>
+    <h5>{{arr.description}}</h5>
+    
+    <h4 class="title w3-light-grey"><b>Category: {{arr.category}}</b></h4>
+   <!--i class="fa fa-inr"></i-->
+
+    <div id="container">
+	  <a *ngIf="token!=null" class="w3-mobile button" id="button1" role="button" (click)="(viewAd(arr.id))">View</a>
+        <button *ngIf="token!=null" type="button" class="w3-mobile button" data-toggle="modal" data-target="#contact">Contact</button>
+		<div class="modal fade" id="contact" role="dialog">
+    <div class="modal-dialog">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Contact</h4>
+        </div>
+        <div class="modal-body">
+
+			<div class = "form-group col-md-6 col-sm-6">
+	    <label for="city">Posted by: {{arr.username}}</label>
+    </div>
+
+	<div class="form-group col-md-6 col-sm-6">
+        <label for="city">Id: {{arr.data}}</label>
+    </div>
+	
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+		
+   </div>
+   </div>
+   </div>
+	</div>
+  </div>
+  </div>
+ </div>
+<h2>All Ads:</h2>
+
+<div *ngFor="let advertisement of advertisements">
+	 <div class="card" >
+    <!--div class="left"><img src="images/1.jpg" ></div-->
+  <div class="container" >
+    <p class="title w3-light-grey">{{advertisement.title}}</p>
+    <h5>{{advertisement.description}}</h5>
+    <h4><b>Posted by: {{advertisement.username}}</b></h4>
+     
+    <h4 class="title w3-light-grey"><b>Category: {{advertisement.category}}</b></h4>
+   <!--i class="fa fa-inr"></i-->
+
+   <div id="container">
+	<a *ngIf="token!=null" class="w3-mobile button" id="button1" role="button" (click)="(viewAd(advertisement.id))">View</a>
+        <button *ngIf="token!=null" type="button" class="w3-mobile button" data-toggle="modal" data-target="#contact">Contact</button>
+		<div class="modal fade" id="contact" role="dialog">
+    <div class="modal-dialog">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Contact</h4>
+        </div>
+        <div class="modal-body">
+
+			<div class = "form-group col-md-6 col-sm-6">
+	    <label for="city">Posted by: {{advertisement.username}}</label>
+    </div>
+
+	<div class="form-group col-md-6 col-sm-6">
+        <label for="city">Id: {{advertisement.data}}</label>
+    </div>
+	
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+		
+   </div>
+   </div>
+   </div>
+	</div>
+  </div>
+  </div>
+ </div>
+
+
+	 <footer class="container-fluid bg-4">
+	 <div class="container-fluid">
+  <div class="col-sm-4">
+	<ul>
+    <li><a href="#" class="a1">Top Developers</a></li>
+    <li><a href="#" class="a1">Real Estate News</a></li>
+    <li><a href="#" class="a1">Give us your feedback</a></li>
+    <li>Need any help? Write to us at</li>
+	<li><i class="fa fa-envelope-o">support@maisonme.com</i>
+    
+	</ul>
+	</div>
+  <div class="col-sm-4"><div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-google w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <div>
+  <p>© 2017 Padmaja Huddar. All rights reserved.</p></div>
+  </div>
+  <div class="col-sm-4">
+  <ul>
+    <li><a href="#" class="a1">Home Loans</a></li>
+    <li><a href="#" class="a1">Download App</a></li>
+    </ul>
+  </div>
+</div>
+</footer>
+
+<script>
+function openLeftMenu() {
+    document.getElementById("leftMenu").style.display = "block";
+}
+function closeLeftMenu() {
+    document.getElementById("leftMenu").style.display = "none";
+}
+
+/*function openRightMenu() {
+    document.getElementById("rightMenu").style.display = "block";
+}
+function closeRightMenu() {
+    document.getElementById("rightMenu").style.display = "none";
+}*/
+</script>
+
+</body>

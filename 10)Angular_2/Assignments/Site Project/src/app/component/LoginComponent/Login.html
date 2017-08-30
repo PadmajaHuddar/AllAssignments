@@ -1,0 +1,43 @@
+<link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<div class="w3-container">
+
+  <div style="margin-left: 350px;">
+    <div class="content w3-card-4 w3-animate-zoom" style="max-width:600px">
+  
+      <div class="w3-center"><br>
+         <img src="images/house.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+      </div>
+
+      <form #productForm="ngForm"  class="w3-container">
+        <div class="w3-section">
+          <label><b>Username</b></label>
+          <input class="w3-input w3-border w3-margin-bottom form-control" type="text" placeholder="Enter Username" name="usrname" required minlength="2" maxlength="20" #nameRef #nameModelRef="ngModel" ngModel>
+            <div *ngIf="nameModelRef.errors && nameModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!nameModelRef.errors.required" >Please enter your name </div>
+                <div [hidden]="!nameModelRef.errors.minlength"> Name length should be minimum 3 characters </div>
+            </div>
+          <label><b>Password</b></label>
+          <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required minlength="8" maxlength="15" #passwdRef #passwdModelRef="ngModel" ngModel>
+            <div *ngIf="passwdModelRef.errors && passwdModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!passwdModelRef.errors.required" >Please enter password </div>
+                <div [hidden]="!passwdModelRef.errors.minlength"> Password should be minimum 8 characters </div>
+            </div>
+		  <button [disabled]="!productForm.form.valid" (click)="checkLogin(nameRef.value,passwdRef.value)" type="submit" style="margin-left: 200px; margin-top: 20px;">Login</button>
+		  <br>
+          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+        </div>
+      </form>
+
+      <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+		    <a class="button" role="button" href="main.html">Cancel</a>
+	  <span class="w3-right w3-padding w3-hide-small"><a href="forgotpwd.html"  style="color:black;">Forgot password?</a></span>
+      </div>
+
+    </div>
+  </div>
+</div>

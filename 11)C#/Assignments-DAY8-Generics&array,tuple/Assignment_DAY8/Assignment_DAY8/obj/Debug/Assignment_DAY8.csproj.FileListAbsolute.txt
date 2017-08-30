@@ -1,0 +1,6 @@
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignment_DAY8\Assignment_DAY8\bin\Debug\Assignment_DAY8.exe.config
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignment_DAY8\Assignment_DAY8\bin\Debug\Assignment_DAY8.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignment_DAY8\Assignment_DAY8\bin\Debug\Assignment_DAY8.pdb
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignment_DAY8\Assignment_DAY8\obj\Debug\Assignment_DAY8.csprojResolveAssemblyReference.cache
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignment_DAY8\Assignment_DAY8\obj\Debug\Assignment_DAY8.exe
+c:\users\huddar_p\documents\visual studio 2015\Projects\Assignment_DAY8\Assignment_DAY8\obj\Debug\Assignment_DAY8.pdb
